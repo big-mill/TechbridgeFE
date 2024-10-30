@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="css/practice.css">
+    </head>
+<body>
+    <div class="signup-container">
+    <h1>Create a new account</h1>
+    <p>It's quick and easy.</p>
+    
+    <form>
+        <div class="form-group">
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Surname">
+        </div>
+
+        <div class="form-group">
+            <label>Date of birth</label>
+            <select>
+                <!-- Options for the day -->
+                <option>17</option>
+            </select>
+            <select>
+                <!-- Options for the month -->
+                <option>Oct</option>
+            </select>
+            <select>
+                <!-- Options for the year -->
+                <option>2024</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Gender</label>
+            <label><input type="radio" name="gender"> Female</label>
+            <label><input type="radio" name="gender"> Male</label>
+            <label><input type="radio" name="gender"> Custom</label>
+        </div>
+
+        <div class="form-group">
+            <input type="text" placeholder="Mobile number or email address">
+        </div>
+
+        <div class="form-group">
+            <input type="password" placeholder="New password">
+        </div>
+
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <p class="login-link">Already have an account?</p>
+</div>
+</body>
+</html>
