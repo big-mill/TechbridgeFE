@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+    <body>
+        <div class="parentcontainer">
+            <div class="form-title">
+                <h1>Create a new account</h1>
+                <p>Its quick and easy</p>
+            </div>
+            <hr>
+            <div class="name">
+             <form>
+                <input class="input" type="text" placeholder="Firstname"> 
+                <input class="input" type="text" placeholder="Lastname">  
+             </form>    
+            </div>
+            <div class="dob">
+                <h5>Date of birth</h5>
+                <select class="cal">
+                    <option class="date" selected>17</option>
+                </select>
+                <select class="cal">
+                    <option class="date" disabled selected>Oct</option>
+                </select>
+                <select class="cal">
+                    <option class="Date" disabled selected>2024</option>
+                </select>
+            </div>
+            <div class="gender">
+                <h5>Gender</h5>
+                <div class="labelborder">
+                    <label for="Female">Female</label>
+                    <input type="radio">
+                </div>
+
+                <div class="labelborder">
+                    <label for="male">Male</label>
+                    <input id="radio-input" type="radio">
+                </div>
+
+                <div class="labelborder">
+                    <label for="Custom">Custom</label>
+                    <input type="radio">
+                </div>
+            </div>
+            <div class="mobile-email">
+                <input type="text" placeholder="Mobile number or Email address">
+            </div>
+            <div class="pass">
+                <input type="password" placeholder="New password">
+            </div>
+            <div class="description">
+                <p>
+                    People who use our service may have uploaded your contact information to<br>
+                    Facebook.<a href="">Learn more</a><br><br>
+                    By clicking Sign Up, you agree to our <a href="">Terms, Privacy Policy and Cookies<br>
+                    Policy.</a>You may receive SMS notificatons from us and can opt out at any<br>
+                    time.
+                  </p>
+            </div>
+            <div class="lastcontainer">
+                <button type="submit">Sign Up</button>
+                <p>Already have an account?</p>
+            </div>
+        
+        </div>
+    </body>
+    </html>
