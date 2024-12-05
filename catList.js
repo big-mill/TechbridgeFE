@@ -93,46 +93,8 @@ const factContainer = document.createElement("p");
 factContainer.id = "fact-container";
 btnSection.appendChild(factContainer);
 
-
-// // Add a click event listener to the button
-// button.addEventListener("click", () => {
-//   // Set the button text to "Loading..."
-//   button.textContent = "Loading...";
-  
-//   // Create and send an XMLHttpRequest
-//   const req = new XMLHttpRequest();
-//   req.open("GET", "https://catfact.ninja/fact");
-//   req.responseType = "json";
-//   req.send();
-
-//   req.onload = () => {
-//     // Check if the request was successful
-//     if (req.status === 200) {
-//       // Display the fact below the button
-//       factContainer.textContent = req.response.fact;
-//     } else {
-//       // Handle errors
-//       factContainer.textContent = "Failed to load a cat fact. Please try again.";
-//     }
-
-//     // Reset the button text
-//     button.textContent = "More cat facts";
-//   };
-
-//   req.onerror = () => {
-//     // Handle network errors
-//     factContainer.textContent = "Network error. Please check your connection.";
-//     button.textContent = "More cat facts";
-//   };
-// });
-
-
-// const button = document.getElementById("get-btn");
-// const btnSection = document.getElementById("btn-section");
-
-
 button.addEventListener("click", () => {
-  // Set the button text to "Loading..."
+  //  button text "Loading..."
   button.textContent = "Loading...";
 
   
